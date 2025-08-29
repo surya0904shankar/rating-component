@@ -1,0 +1,134 @@
+body{
+    font-family: 'Overpass', sans-serif;
+
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    margin: 0;
+}
+.rating-state ,.thank-you-state{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 325px;
+    height: 325px;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 8%);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.thank-you-state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.star-icon{
+    height: 10px;
+    width: 10px;
+}
+.question{
+    color: white;
+    font-weight: 700;
+    margin: 0%;
+    
+    
+}
+.feedback-message{
+    color: hsl(217, 12%, 63%);
+    text-align:left;
+    line-height: 1.5;
+    font-size: 13px;
+}
+.rating-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rating-option{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    padding: 0%;
+    border: 0px;
+
+}
+.star-icon-container{
+    background-color: hsl(213, 19%, 18%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    height: 35px;
+    padding: 20px;
+    border: 0ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rating-option:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+}
+.submit:hover{
+    background-color: white;
+}
+.thank-you-image{
+    height: 75px;
+    width: 100px;
+}
+.thank-you-message{
+    color: hsla(30, 97%, 53%, 0.7);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.thank-you-description{
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+}
+.thank-you{
+    margin: 0px;
+    color: white;
+}
+.thank-you-state{
+    display: none;
+}
+.attribution{
+    padding-top: 40px;
+
+}
